@@ -8,7 +8,7 @@ class Paddle{
         }
         this.pointB=pointB;
         this.Paddle=Constraint.create(options);
-        World.add(world,this.Paddle);
+        Engine.add(engine,this.Paddle);
 
     }
     fly(){
